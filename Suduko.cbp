@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Suduko" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Suduko" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lSDL -lSDL_image -lSDL_ttf" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Suduko" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="gfx/DifficultyWindow.png" />
+		<Unit filename="gfx/EraserButton.png" />
+		<Unit filename="gfx/Grid.png" />
+		<Unit filename="gfx/PencilButton.png" />
+		<Unit filename="gfx/Redo.png" />
+		<Unit filename="gfx/RedoGreyed.png" />
+		<Unit filename="gfx/ResetButton2.png" />
+		<Unit filename="gfx/SolutionButton.png" />
+		<Unit filename="gfx/Star.png" />
+		<Unit filename="gfx/Tick.png" />
+		<Unit filename="gfx/Undo.png" />
+		<Unit filename="gfx/UndoGreyed.png" />
+		<Unit filename="gfx/background.png" />
+		<Unit filename="src/Cleanup.cpp" />
+		<Unit filename="src/Difficulty.cpp" />
+		<Unit filename="src/Difficulty.h" />
+		<Unit filename="src/Events.cpp" />
+		<Unit filename="src/Events.h" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Game.h" />
+		<Unit filename="src/GridNumbers.cpp" />
+		<Unit filename="src/GridNumbers.h" />
+		<Unit filename="src/Init.cpp" />
+		<Unit filename="src/Logic.cpp" />
+		<Unit filename="src/Makefile.am" />
+		<Unit filename="src/Render.cpp" />
+		<Unit filename="src/Solution.cpp" />
+		<Unit filename="src/Solution.h" />
+		<Unit filename="src/Surface.cpp" />
+		<Unit filename="src/Surface.h" />
+		<Unit filename="src/UndoAndRedo.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

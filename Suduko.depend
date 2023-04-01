@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1366300539 source:/home/scott/Programs/Suduko/src/Cleanup.cpp
+	"Game.h"
+
+1366300533 /home/scott/Programs/Suduko/src/Game.h
+	<cstdlib>
+	<ctime>
+	<cmath>
+	"Surface.h"
+	"Events.h"
+	"GridNumbers.h"
+	"Solution.h"
+	"Difficulty.h"
+
+1366300522 /home/scott/Programs/Suduko/src/Surface.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<iostream>
+
+1366300534 /home/scott/Programs/Suduko/src/Events.h
+	<SDL/SDL.h>
+
+1366637858 /home/scott/Programs/Suduko/src/GridNumbers.h
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	<sstream>
+	<vector>
+	"Surface.h"
+
+1366300524 /home/scott/Programs/Suduko/src/Solution.h
+	<vector>
+	<algorithm>
+	<functional>
+
+1366300537 /home/scott/Programs/Suduko/src/Difficulty.h
+	<cstdlib>
+	<iostream>
+	<string>
+
+1366300538 source:/home/scott/Programs/Suduko/src/Difficulty.cpp
+	"Difficulty.h"
+
+1366641248 source:/home/scott/Programs/Suduko/src/Events.cpp
+	"Events.h"
+
+1366300534 source:/home/scott/Programs/Suduko/src/Game.cpp
+	"Game.h"
+
+1366640858 source:/home/scott/Programs/Suduko/src/GridNumbers.cpp
+	"GridNumbers.h"
+
+1366559463 source:/home/scott/Programs/Suduko/src/Init.cpp
+	"Game.h"
+
+1366637419 source:/home/scott/Programs/Suduko/src/Logic.cpp
+	"Game.h"
+	"GridNumbers.h"
+
+1366586968 source:/home/scott/Programs/Suduko/src/Render.cpp
+	"Game.h"
+	"GridNumbers.h"
+
+1366300525 source:/home/scott/Programs/Suduko/src/Solution.cpp
+	"Solution.h"
+
+1366300523 source:/home/scott/Programs/Suduko/src/Surface.cpp
+	"Surface.h"
+
+1366640858 source:/home/scott/Programs/Suduko/src/UndoAndRedo.cpp
+	"Game.h"
+	"GridNumbers.h"
+
